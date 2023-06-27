@@ -163,6 +163,10 @@ section#Certifications ul {
   list-style-type: none;
 }
 
+section#Education h1{
+  color:#f01716
+}
+
 section#Education p{
   color: #000000
 }
@@ -249,7 +253,7 @@ h3 {
   font-size: 20px;
 }
 
-.isupicture {
+/* .isupicture {
   width: 500px;
   height: 400px;
   overflow: hidden;
@@ -259,4 +263,28 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+} */
+
+.centered-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 0;
+}
+
+.centered-list li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.vertical-bar {
+  width: 2px; /* Adjust the width as needed */
+  background-color: #555; /* Adjust the color as needed */
+  height: 100%; /* Set the height to 100% to span the entire section */
+  position: absolute;
+  top: 0;
+  left: 50%; /* Position the vertical bar on the left side */
+  transform: translateX(-50%); /* Center the vertical bar horizontally */
+  z-index: -1; /* Move the vertical bar behind the content */
 }
