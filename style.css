@@ -68,7 +68,6 @@ html {
   background-repeat: no-repeat;
 }
 
-
 .block2 {
   padding-top: 50px;
   padding-bottom: 60px;
@@ -163,12 +162,12 @@ section#Certifications ul {
   list-style-type: none;
 }
 
-section#Education h1{
-  color:#f01716
+section#Education h1 {
+  color: #f01716;
 }
 
-section#Education p{
-  color: #000000
+section#Education p {
+  color: #000000;
 }
 
 #contact {
