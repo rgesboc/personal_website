@@ -62,7 +62,7 @@ html {
   position: relative; /* Add this to establish a positioning context */
   height: 600px;
   background-color: #074357;
-  background-image: url("background.jpg");
+  background-image: url("../images/background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
